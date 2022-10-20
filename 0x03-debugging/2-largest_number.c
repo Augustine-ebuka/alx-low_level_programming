@@ -16,7 +16,7 @@ int largest_number(int a, int b, int c)
 	{
 		largest = a;
 	}
-	if else (b >= a && b >= c)
+	else if (b >= a && b >= c)
 	{
 		largest = b;
 	}
