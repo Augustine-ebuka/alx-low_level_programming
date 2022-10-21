@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *  print_numbers: if a function that prints
- *  numbers 1 to 9
- *  _putchar: prints the result
+ * print_numbers - prints the numbers, from 0 to 9,
+ * followed by a new line
  */
 void print_numbers(void)
 {
