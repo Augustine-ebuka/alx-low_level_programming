@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  *  _strlen_recursion - a function thst returnsnthe length of a strng
