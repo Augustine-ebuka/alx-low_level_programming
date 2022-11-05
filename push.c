@@ -1,4 +1,6 @@
 #!/usr/bin/bash
 git add .
-git commit -m "my first commit"
+echo "enter commit message"
+read message
+git commit -m "$message"
 git push
