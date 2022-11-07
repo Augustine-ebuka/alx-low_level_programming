@@ -1,6 +1,6 @@
-#include "main.h"
 #include <stdlib.h>
-
+#include "main.h"
+#include <stdio.h>
 /**
  * main - main function that print the name of the file
  * @argc: this keep track of the number of argument
@@ -8,8 +8,8 @@
  *
  * Return: this return the name of the file
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	_putchar(argv[0]);
+	printf("%s\n", *argv);
 	return (0);
 }
