@@ -4,11 +4,7 @@
  * print_most_numbers - prints the numbers, from 0 to 9,
  * except 2 and 4, followed by a new line
  */
-<<<<<<< HEAD
-void print_most_numbers()
-=======
 void print_most_numbers(void)
->>>>>>> 2cb33a02a8e0d62b1c234d3592d05df55487add6
 {
 	int i;
 
@@ -20,5 +16,6 @@ void print_most_numbers(void)
 		}
 	}
 
+	_putchar(i);
 	_putchar('\n');
 }
