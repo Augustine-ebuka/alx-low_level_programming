@@ -1,21 +1,21 @@
 #include "main.h"
+
 /**
- * _memset - prints buffer in hexa
- * @s: the address of memory to print
- * @b: the bytes to be filled
- * @n: number of byte that will be filled
+ * *_memset - fills memory with a constant byte
+ * @s: memory area to be filled
+ * @b: char to copy
+ * @n: number of times to copy b
  *
- * Return: the value filled with the char
+ * Return: pointer to the memory area s
  */
-char _memset(char *s, char b, unsigned size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	i = 0;
-
-	while (i < n)
+	for (i = 0; i < n; i++)
 	{
 		s[i] = b;
-		i++;
 	}
+
+	return (s);
 }
